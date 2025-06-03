@@ -8,7 +8,7 @@ module.exports = {
         SCL: undefined
     },
     body: p => `
-        (module lib:OLED_headers (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:OLED_headers (layer F.Cu) (tedit 5E1ADAC2)
         ${p.at /* parametric position */} 
 
         ${'' /* footprint reference */}        

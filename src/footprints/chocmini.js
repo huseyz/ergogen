@@ -19,7 +19,7 @@ module.exports = {
     },
     body: p => {
 	    const standard = `
-        (module lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
         ${p.at /* parametric position */} 
 
         ${'' /* footprint reference */}        

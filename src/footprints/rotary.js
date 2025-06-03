@@ -17,7 +17,7 @@ module.exports = {
         C: undefined
     },
     body: p => `
-        (module rotary_encoder (layer F.Cu) (tedit 603326DE)
+        (footprint rotary_encoder (layer F.Cu) (tedit 603326DE)
 
             ${p.at /* parametric position */}
         

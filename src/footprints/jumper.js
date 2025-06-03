@@ -6,7 +6,7 @@ module.exports = {
         to: undefined
     },
     body: p => `
-        (module lib:Jumper (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Jumper (layer F.Cu) (tedit 5E1ADAC2)
         ${p.at /* parametric position */} 
 
         ${'' /* footprint reference */}        

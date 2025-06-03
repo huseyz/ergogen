@@ -23,7 +23,7 @@ module.exports = {
   },
   body: p => {
     const standard = `
-      (module PG1350 (layer F.Cu) (tedit 5DD50112)
+      (footprint PG1350 (layer F.Cu) (tedit 5DD50112)
       ${p.at /* parametric position */}
 
       ${'' /* footprint reference */}

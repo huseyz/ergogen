@@ -110,7 +110,7 @@
 
   
           
-        (module lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
         (at 0 0 0) 
 
                 
@@ -159,7 +159,7 @@
           
 
           
-        (module lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
         (at 50 0 0) 
 
                 
@@ -214,7 +214,7 @@
           
 
           
-        (module lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
         (at 100 0 0) 
 
                 
@@ -269,7 +269,7 @@
           
 
           
-        (module lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Kailh_PG1232 (layer F.Cu) (tedit 5E1ADAC2)
         (at 150 0 0) 
 
                 

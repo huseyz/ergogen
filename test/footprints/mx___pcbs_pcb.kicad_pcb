@@ -110,7 +110,7 @@
 
   
         
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       (at 0 0 0)
 
       
@@ -143,7 +143,7 @@
         
 
         
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       (at 50 0 0)
 
       
@@ -182,7 +182,7 @@
         
 
         
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       (at 100 0 0)
 
       
@@ -220,7 +220,7 @@
         
 
         
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       (at 150 0 0)
 
       
@@ -257,7 +257,7 @@
         
 
         
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       (at 200 0 0)
 
       
@@ -303,7 +303,7 @@
         
 
         
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       (at 250 0 0)
 
       

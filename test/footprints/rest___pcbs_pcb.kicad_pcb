@@ -136,7 +136,7 @@
 
   
 
-    (module ALPS (layer F.Cu) (tedit 5CF31DEF)
+    (footprint ALPS (layer F.Cu) (tedit 5CF31DEF)
 
         (at 0 0 0)
         
@@ -158,11 +158,10 @@
         (pad 1 thru_hole circle (at 2.5 -4.5) (size 2.25 2.25) (drill 1.47) (layers *.Cu *.Mask) (net 1 "from"))
         (pad 2 thru_hole circle (at -2.5 -4) (size 2.25 2.25) (drill 1.47) (layers *.Cu *.Mask) (net 2 "to"))
     )
-
     
 
     
-    (module JST_PH_S2B-PH-K_02x2.00mm_Angled (layer F.Cu) (tedit 58D3FE32)
+    (footprint JST_PH_S2B-PH-K_02x2.00mm_Angled (layer F.Cu) (tedit 58D3FE32)
 
         (descr "JST PH series connector, S2B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf")
         (tags "connector jst ph")
@@ -192,7 +191,7 @@
     
     
 
-        (module lib:Jumper (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:Jumper (layer F.Cu) (tedit 5E1ADAC2)
         (at 100 0 0) 
 
                 
@@ -206,7 +205,7 @@
         (clearance 0.1905) (net 2 "to")))
     
 
-        (module lib:OLED_headers (layer F.Cu) (tedit 5E1ADAC2)
+        (footprint lib:OLED_headers (layer F.Cu) (tedit 5E1ADAC2)
         (at 0 -50 0) 
 
                 
@@ -226,7 +225,7 @@
         
 
     
-    (module OMRON_B3F-4055 (layer F.Cu) (tstamp 5BF2CC94)
+    (footprint OMRON_B3F-4055 (layer F.Cu) (tstamp 5BF2CC94)
 
         (at 50 -50 0)
         
@@ -253,7 +252,7 @@
     
 
     
-        (module WS2812B (layer F.Cu) (tedit 53BEE615)
+        (footprint WS2812B (layer F.Cu) (tedit 53BEE615)
 
             (at 100 -50 0)
 
@@ -287,7 +286,7 @@
     
     
 
-        (module rotary_encoder (layer F.Cu) (tedit 603326DE)
+        (footprint rotary_encoder (layer F.Cu) (tedit 603326DE)
 
             (at 0 -100 0)
         
@@ -339,7 +338,7 @@
     
 
         
-        (module RollerEncoder_Panasonic_EVQWGD001 (layer F.Cu) (tedit 6040A10C)
+        (footprint RollerEncoder_Panasonic_EVQWGD001 (layer F.Cu) (tedit 6040A10C)
         (at 50 -100 0)   
         (fp_text reference REF** (at 0 0 0) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value RollerEncoder_Panasonic_EVQWGD001 (at -0.1 9 0) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
@@ -375,7 +374,7 @@
         
 
         
-        (module E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
+        (footprint E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
 
             (at 100 -100 0)
 
@@ -414,7 +413,7 @@
         
         
 
-      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (footprint VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
       (at 0 -150 0)   
       
       (fp_text reference REF** (at 0 1.4) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
@@ -426,7 +425,7 @@
     
 
         
-        (module RollerEncoder_Panasonic_EVQWGD001 (layer F.Cu) (tedit 6040A10C)
+        (footprint RollerEncoder_Panasonic_EVQWGD001 (layer F.Cu) (tedit 6040A10C)
         (at 50 -150 0)   
         (fp_text reference REF** (at 0 0 0) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value RollerEncoder_Panasonic_EVQWGD001 (at -0.1 9 0) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
@@ -484,7 +483,7 @@
         
 
         
-        (module E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
+        (footprint E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
 
             (at 100 -150 0)
 

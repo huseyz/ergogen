@@ -33,7 +33,7 @@ module.exports = {
   },
   body: p => {
     const standard = `
-      (module ProMicro (layer F.Cu) (tedit 5B307E4C)
+      (footprint ProMicro (layer F.Cu) (tedit 5B307E4C)
       ${p.at /* parametric position */}
 
       ${'' /* footprint reference */}

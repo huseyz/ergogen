@@ -6,7 +6,7 @@ module.exports = {
     },
     body: p => `
 
-    (module ALPS (layer F.Cu) (tedit 5CF31DEF)
+    (footprint ALPS (layer F.Cu) (tedit 5CF31DEF)
 
         ${p.at /* parametric position */}
         
@@ -28,6 +28,5 @@ module.exports = {
         (pad 1 thru_hole circle (at 2.5 -4.5) (size 2.25 2.25) (drill 1.47) (layers *.Cu *.Mask) ${p.from})
         (pad 2 thru_hole circle (at -2.5 -4) (size 2.25 2.25) (drill 1.47) (layers *.Cu *.Mask) ${p.to})
     )
-
     `
 }

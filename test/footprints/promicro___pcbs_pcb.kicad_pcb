@@ -150,7 +150,7 @@
 
   
         
-      (module ProMicro (layer F.Cu) (tedit 5B307E4C)
+      (footprint ProMicro (layer F.Cu) (tedit 5B307E4C)
       (at 0 0 0)
 
       
@@ -232,7 +232,7 @@
         
 
         
-      (module ProMicro (layer F.Cu) (tedit 5B307E4C)
+      (footprint ProMicro (layer F.Cu) (tedit 5B307E4C)
       (at 50 0 0)
 
       

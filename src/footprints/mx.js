@@ -23,7 +23,7 @@ module.exports = {
   },
   body: p => {
     const standard = `
-      (module MX (layer F.Cu) (tedit 5DD4F656)
+      (footprint MX (layer F.Cu) (tedit 5DD4F656)
       ${p.at /* parametric position */}
 
       ${'' /* footprint reference */}

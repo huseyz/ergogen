@@ -35,7 +35,7 @@ module.exports = {
 
         return `
     
-        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+        (footprint SMDPad (layer F.Cu) (tedit 5B24D78E)
 
             ${p.at /* parametric position */}
 

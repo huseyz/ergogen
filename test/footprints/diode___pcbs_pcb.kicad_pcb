@@ -110,7 +110,7 @@
 
   
   
-    (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+    (footprint ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
         (at 0 0 0)

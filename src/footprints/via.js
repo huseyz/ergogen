@@ -7,7 +7,7 @@ module.exports = {
       net: undefined
     },
     body: p => `
-      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (footprint VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
       ${p.at /* parametric position */}   
       ${'' /* footprint reference */}
       (fp_text reference REF** (at 0 1.4) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))

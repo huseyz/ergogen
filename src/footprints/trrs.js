@@ -45,7 +45,7 @@ module.exports = {
   },
   body: p => {
     const standard = `
-      (module TRRS-PJ-320A-dual (layer F.Cu) (tedit 5970F8E5)
+      (footprint TRRS-PJ-320A-dual (layer F.Cu) (tedit 5970F8E5)
 
       ${p.at /* parametric position */}   
 

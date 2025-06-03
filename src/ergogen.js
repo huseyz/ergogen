@@ -9,7 +9,7 @@ const pcbs_lib = require('./pcbs')
 
 const version = require('../package.json').version
 
-const process = async (raw, debug=false, logger=()=>{}) => {
+const process = async (raw, debug=false, logger=(msg, level)=>{}) => {
 
     const prefix = 'Interpreting format: '
     let empty = true
@@ -21,9 +21,9 @@ const process = async (raw, debug=false, logger=()=>{}) => {
         suffix = `${format} (Auto-debug)`
         debug = true
     }
-    logger(prefix + suffix)
+    logger(prefix + suffix, 'info')
     
-    logger('Preprocessing input...')
+    logger('Preprocessing input...', 'info')
     config = prepare.unnest(config)
     config = prepare.inherit(config)
     config = prepare.parameterize(config)
@@ -34,20 +34,20 @@ const process = async (raw, debug=false, logger=()=>{}) => {
     }
 
     if (config.meta && config.meta.engine) {
-        logger('Checking compatibility...')
+        logger('Checking compatibility...', 'info')
         const engine = u.semver(config.meta.engine, 'config.meta.engine')
         if (!u.satisfies(version, engine)) {
             throw new Error(`Current ergogen version (${version}) doesn\'t satisfy config's engine requirement (${config.meta.engine})!`)
         }
     }
 
-    logger('Calculating variables...')
+    logger('Calculating variables...', 'info')
     const units = units_lib.parse(config)
     if (debug) {
         results.units = units
     }
     
-    logger('Parsing points...')
+    logger('Parsing points...', 'info')
     if (!config.points) {
         throw new Error('Input does not contain a points clause!')
     }
@@ -60,7 +60,7 @@ const process = async (raw, debug=false, logger=()=>{}) => {
         results.demo = io.twodee(points_lib.visualize(points, units), debug)
     }
 
-    logger('Generating outlines...')
+    logger('Generating outlines...', 'info')
     const outlines = outlines_lib.parse(config.outlines || {}, points, units)
     results.outlines = {}
     for (const [name, outline] of Object.entries(outlines)) {
@@ -69,7 +69,7 @@ const process = async (raw, debug=false, logger=()=>{}) => {
         empty = false
     }
 
-    logger('Modeling cases...')
+    logger('Modeling cases...', 'info')
     const cases = cases_lib.parse(config.cases || {}, outlines, units)
     results.cases = {}
     for (const [case_name, case_script] of Object.entries(cases)) {
@@ -78,7 +78,7 @@ const process = async (raw, debug=false, logger=()=>{}) => {
         empty = false
     }
 
-    logger('Scaffolding PCBs...')
+    logger('Scaffolding PCBs...', 'info')
     const pcbs = pcbs_lib.parse(config, points, outlines, units)
     results.pcbs = {}
     for (const [pcb_name, pcb_text] of Object.entries(pcbs)) {
@@ -88,7 +88,7 @@ const process = async (raw, debug=false, logger=()=>{}) => {
     }
 
     if (!debug && empty) {
-        logger('Output would be empty, rerunning in debug mode...')
+        logger('Output would be empty, rerunning in debug mode...', 'info')
         return process(raw, true, () => {})
     }
     return results

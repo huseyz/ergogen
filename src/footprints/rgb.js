@@ -9,7 +9,7 @@ module.exports = {
     },
     body: p => `
     
-        (module WS2812B (layer F.Cu) (tedit 53BEE615)
+        (footprint WS2812B (layer F.Cu) (tedit 53BEE615)
 
             ${p.at /* parametric position */}
 

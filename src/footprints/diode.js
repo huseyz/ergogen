@@ -6,7 +6,7 @@ module.exports = {
     },
     body: p => `
   
-    (module ComboDiode (layer F.Cu) (tedit 5B24D78E)
+    (footprint ComboDiode (layer F.Cu) (tedit 5B24D78E)
 
 
         ${p.at /* parametric position */}

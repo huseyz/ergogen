@@ -12,7 +12,7 @@ module.exports = {
 
         return `
         
-        (module E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
+        (footprint E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
 
             ${p.at /* parametric position */}
 

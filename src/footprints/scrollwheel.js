@@ -33,7 +33,7 @@ module.exports = {
     },
     body: p => {
       const standard = `
-        (module RollerEncoder_Panasonic_EVQWGD001 (layer F.Cu) (tedit 6040A10C)
+        (footprint RollerEncoder_Panasonic_EVQWGD001 (layer F.Cu) (tedit 6040A10C)
         ${p.at /* parametric position */}   
         (fp_text reference REF** (at 0 0 ${p.r}) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value RollerEncoder_Panasonic_EVQWGD001 (at -0.1 9 ${p.r}) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))

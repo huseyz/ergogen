@@ -70,8 +70,8 @@ exports.interpret = (raw, logger) => {
                 )
                 format = 'JS'
             } catch (codeex) {
-                logger('YAML exception:', yamlex)
-                logger('Code exception:', codeex)
+                logger('YAML exception:' + yamlex, 'error')
+                logger('Code exception:' + codeex, 'error')
                 throw new Error('Input is not valid YAML, JSON, or JS Code!')
             }
         }

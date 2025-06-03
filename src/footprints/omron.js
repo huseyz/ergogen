@@ -6,7 +6,7 @@ module.exports = {
     },
     body: p => `
     
-    (module OMRON_B3F-4055 (layer F.Cu) (tstamp 5BF2CC94)
+    (footprint OMRON_B3F-4055 (layer F.Cu) (tstamp 5BF2CC94)
 
         ${p.at /* parametric position */}
         ${'' /* footprint reference */}
